@@ -1,13 +1,17 @@
-"# ganesh-jayasamraj.github.io" 
+# ganesh-jayasamraj.github.io
 
-Commands to Remember
+## Commands to Remember
 
-git add . "To add every changes to stage"
+>**`git add .`** "To add every changes to stage"
 
-git commit "Stage to upload"
+>**`git commit -m "some message"`** "Stage to upload"
 
-git push "Push to repository"
+>**`git push`** "Push to repository"
 
-npm run predeploy "To built react project"
+>**`npm run predeploy`** "To built react project"
 
-npm run deploy "for deploy github pages"
+>**`npm run deploy`** "for deploy github pages"
+
+Deployed site *[Click here to redirect](https://ganesh-jayasamraj.github.io/)*
+
+I need to highlight these ==very important words==.
