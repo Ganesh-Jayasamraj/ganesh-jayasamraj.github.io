@@ -13,5 +13,3 @@
 >**`npm run deploy`** "for deploy github pages"
 
 Deployed site *[Click here to redirect](https://ganesh-jayasamraj.github.io/)*
-
-I need to highlight these ==very important words==.
