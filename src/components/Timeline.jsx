@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Timeline = () => {
   return (
-    <div>Timeline</div>
+    <section id='timeline' className='h-[100vh]'>Timeline</section>
   )
 }

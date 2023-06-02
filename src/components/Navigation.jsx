@@ -12,9 +12,9 @@ export const Navigation = () => {
     <nav>
         <a href="#"><AiOutlineHome/></a>
         <a href="#learnings"><FiBook /></a>
-        <a href="#Timeline"><LuCalendarClock /></a>
-        <a href="#Personal_work"><MdWork /></a>
-        <a href="#Contact"><RiContactsLine /></a>
+        <a href="#timeline"><LuCalendarClock /></a>
+        <a href="#personal_work"><MdWork /></a>
+        <a href="#contact"><RiContactsLine /></a>
     </nav>
   )
 }

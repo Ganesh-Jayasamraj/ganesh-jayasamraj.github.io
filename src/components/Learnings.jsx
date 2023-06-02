@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Learnings = () => {
   return (
-    <div>Learnings</div>
+    <section id='learnings' className='h-[100vh]'>Learnings</section>
   )
 }
