@@ -1,0 +1,17 @@
+audio {
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    /* width: 500px; */
+    display: block;
+    animation: forwards;
+    transition-duration: 4s;
+}
+
+audio:hover {
+    width: 300px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
