@@ -1,17 +1,36 @@
-audio {
+.Mu_player{
+    background: rgba(183, 183, 245, 0.479);
+    border-radius: 2rem;
+    padding: 10px 50px;
+    margin: 0;
+    box-sizing: border-box;
     position: fixed;
-    top: 20px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
-    /* width: 500px; */
-    display: block;
-    animation: forwards;
-    transition-duration: 4s;
+    top: 30px;
+    right: 40px;
 }
 
-audio:hover {
-    width: 300px;
-    height: 40px;
-    transition-duration: 0.5s;
+.Mu_player .expand {
+    position:fixed;
+    right: 50px;
+    font-size: x-large;
+    z-index: 3;
+}
+
+.Mu_player .Mu_des {
+    text-align: center;
+}
+
+.Mu_player_buttons {
+    margin-top: 15px;
+    font-size: x-large;
+    display: flex;
+    gap: 20px;
+}
+
+.play {
+    font-size: 28px;
+}
+
+.bi {
+    font-size: 35px;
 }
