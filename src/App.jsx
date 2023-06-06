@@ -10,7 +10,7 @@ import { Timeline } from './components/Timeline'
 function App() {
 
   return (
-  <div>
+  <div >
     <Home />
     <Navigation />
     <Music_player />

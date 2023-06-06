@@ -5,7 +5,7 @@ import './index.css'
 
 export const Warning = () => {
   return (
-    <div>
+    <div className='warning'>
       This website is still in development
     </div>
   )
