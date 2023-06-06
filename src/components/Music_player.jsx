@@ -35,7 +35,7 @@ export const Music_player = () => {
           </div>
           <div className='Mu_des'>
             <p>Track_name</p>
-            <p>Author</p>
+            <p>Artist</p>
           </div>
       </div>
   )
