@@ -15,5 +15,5 @@ body{
 }
 
 .warning {
-    position: absolute;
+    position: fixed;
 }

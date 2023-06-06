@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+
 export const Warning = () => {
   return (
-    <div className='warning'>
+    <div className='warning text-white text-xl'>
       This website is still in development
     </div>
   )
