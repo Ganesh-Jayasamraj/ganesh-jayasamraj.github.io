@@ -13,7 +13,7 @@ function App() {
   <div >
     <Home />
     <Navigation />
-    {/* <Music_player /> */}
+    <Music_player />
     <Learnings />
     <Timeline />
     <Personal_work />

@@ -18,7 +18,7 @@ export const Home = () => {
   }
 
   return (
-    <section id='#' className='h-[100vh] flex bg-gradient-to-r from-blue-950 from-[45%] to-teal-800'>
+    <section id='#' className='h-[100vh] flex bg-blue-950'>
     {/* <section id='#' className='h-[100vh] flex'> */}
       <div className='w-[50%] text-center place-self-center translate-y-[-8rem] text-cyan-300'>
         <h1 className=' text-[90px] my-[8rem] Scriptina_font fon text_skew ml-[-2rem] '>Greetings Everyone</h1>
