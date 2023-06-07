@@ -9,7 +9,7 @@ import { RiContactsLine } from 'react-icons/ri'
 
 export const Navigation = () => {
   return (
-    <nav className='text-cyan-400'>
+    <nav className='text-cyan-400 Neon_Effects'>
         <a href="#"><AiOutlineHome/></a>
         <a href="#learnings"><FiBook /></a>
         <a href="#timeline"><LuCalendarClock /></a>

@@ -10,5 +10,13 @@
 }
 
 .text_skew {
-    transform: skew(5deg,-20deg) !important;
+    transform: skew(-5deg,-15deg) ;
+}
+
+.Neon_Effects{
+    text-shadow:    0 0 10px rgb(103 232 249 / 1),
+                    0 0 20px rgb(103 232 249 / 1),
+                    0 0 40px rgb(103 232 249 / 1),
+                    0 0 80px rgb(103 232 249 / 1),
+                    0 0 120px rgb(103 232 249 / 1);
 }
