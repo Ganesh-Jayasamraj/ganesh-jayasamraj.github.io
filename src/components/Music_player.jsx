@@ -22,7 +22,7 @@ export const Music_player = () => {
   }
 
   return (
-      <div className='Mu_player bg-blue-950 text-cyan-300'>
+      <div className='Mu_player text-cyan-300'>
         <button className='expand' onClick={toggleExpand}>
           {isExpand ? <BsArrowDownLeftCircle /> : <BsArrowUpRightCircle />}
         </button>

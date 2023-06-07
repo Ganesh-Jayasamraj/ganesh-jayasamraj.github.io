@@ -27,5 +27,5 @@ nav a {
 nav a:hover {
     background: rgba(0, 0, 0, 0.60);
     /* color: rgb(155, 130, 255); */
-    filter: brightness(1.5);
+    filter: brightness(3);
 }

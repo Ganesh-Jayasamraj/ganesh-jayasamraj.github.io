@@ -1,4 +1,8 @@
 .Mu_player{
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    width: max-content;
+    /* background-color: rgba(7, 0, 37, 0.5); */
     border-radius: 2rem;
     padding: 10px 50px;
     margin: 0;
@@ -6,11 +10,13 @@
     position: fixed;
     top: 30px;
     right: 40px;
+    
 }
 
 .Mu_player .expand {
     position:fixed;
-    right: 50px;
+    right: 20px;
+    top: 15px;
     font-size: x-large;
     z-index: 3;
 }
@@ -20,7 +26,7 @@
 }
 
 .Mu_player_buttons {
-    margin-top: 30px;
+    margin-top: 35px;
     font-size: x-large;
     display: flex;
     gap: 20px;
