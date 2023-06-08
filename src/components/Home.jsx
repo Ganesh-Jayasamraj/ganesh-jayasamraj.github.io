@@ -22,7 +22,6 @@ export const Home = () => {
     {/* <section id='#' className='h-[100vh] flex'> */}
       <div className='w-[50%] text-center place-self-center translate-y-[-5rem] text-cyan-100 inline-block'>
         <h1 className=' text-[90px] my-[8rem] Scriptina_font text_skew ml-[-2rem] Neon_Effects'>Greetings Everyone</h1>
-        <h2 className=' text-[60px] text-cyan-300 inline-block'>I'm Ganesh</h2>
         <br />
         <p className=' text-2xl text-cyan-300 inline-block'>I'm Just a random guy, <br /> Who loves computer and stuff</p>
         <br />
@@ -32,7 +31,7 @@ export const Home = () => {
         <button id='CV' onClick={openCV} className=' px-5 py-3 mx-6 my-9 rounded-md bg-blue-400 text-white'> My Resume </button>
       </div>
       <div className='w-[45%] text-center place-self-center'>
-        <p className='text-[80px] Scriptina_font text_skew ml-[-2rem] text-cyan-100 Neon_Effects'>Hello Guys,I'm Ganesh</p>
+        <p className='text-[80px] Scriptina_font text_skew ml-[-2rem] text-cyan-100 Neon_Effects'>I'm Ganesh</p>
       </div>
     </section>
   )
