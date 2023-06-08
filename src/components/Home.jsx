@@ -27,9 +27,9 @@ export const Home = () => {
         <p className=' text-2xl text-cyan-300 inline-block lorem mx-40'> Got no idea what to write, So enjoy lorem <br /> <br /> "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe in quaerat, fuga iure iste, laborum libero nisi dicta illum quod deleniti ipsum aut repellat est eligendi ratione neque minus accusamus." </p>
         <br />
         <a href="#contact">
-          <button className=' px-5 py-3 mx-6 my-9 rounded-md bg-orange-600 text-white'>  Say Hello to me </button>
+          <button className=' px-8 py-3 mx-10 my-9 rounded-md bg-orange-600 text-white'>  Say Hello to me </button>
         </a>
-        <button id='CV' onClick={openCV} className=' px-5 py-3 mx-6 my-9 rounded-md bg-blue-400 text-white'> My Resume </button>
+        <button id='CV' onClick={openCV} className=' px-8 py-3 mx-10 my-9 rounded-md bg-blue-500 text-white'> My Resume </button>
       </div>
 
       <div className='w-[45%] text-center place-self-center'>
