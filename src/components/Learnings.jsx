@@ -25,7 +25,10 @@ export const Learnings = () => {
           <br />
           React
         </div>
-        <div className='card text-purple-400'>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        {/* <div className='card text-purple-400'>
           <SiJulia size={90}/>
           <br />
           Julia
@@ -34,7 +37,7 @@ export const Learnings = () => {
           <SiRust size={90}/>
           <br />
           Rust
-        </div>
+        </div> */}
 
       </div>
     </section>
