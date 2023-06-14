@@ -7,7 +7,7 @@ import { SiJulia, SiRust } from 'react-icons/si'
 export const Learnings = () => {
   return (
     <section id='learnings' className='lg:h-[100vh] sm:h-[100%]'>
-      <h1 className='text-center p-5 mt-6 mb-1 block text-[50px] text-cyan-100 Neon_Effects'>My Learnings</h1>
+      <h1 className='text-center p-5 mt-6 mb-1 block text-[50px] text-cyan-100 Neon_Effects'>Technical Skills</h1>
       <div className='grid gap-4 lg:grid-cols-3 grid-rows-3 mx-20 sm:grid-cols-1'>
         <div className='card text-yellow-300'>
           <FaPython size={90}/>
