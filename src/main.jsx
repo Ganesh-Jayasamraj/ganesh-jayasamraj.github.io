@@ -6,8 +6,8 @@ import './index.css'
 
 export const Warning = () => {
   return (
-    <div className='warning text-white text-xl'>
-      This website is still in development
+    <div className='warning text-white text-sm lg:text-xl'>
+      This website is still under development
     </div>
   )
 }
