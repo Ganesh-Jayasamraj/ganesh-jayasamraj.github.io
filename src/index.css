@@ -26,3 +26,19 @@ body{
                     0 0 80px rgb(103 232 249 / 1),
                     0 0 120px rgb(103 232 249 / 1);
 }
+
+.Section_Heading{
+    color: transparent;
+    font-size: 35px;
+    text-align: center;
+    stroke: rgb(207 250 254 / 1);
+    stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(207 250 254 / 1);
+}
+
+@media (min-width: 1024px){
+    .Section_Heading{
+        font-size: 60px;
+    }
+}
