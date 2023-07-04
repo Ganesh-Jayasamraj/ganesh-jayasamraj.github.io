@@ -15,9 +15,9 @@ function App() {
     <Navigation />
     {/* <Music_player /> */}
     <Learnings />
-    {/* <Timeline />
+    <Timeline />
     <Personal_work />
-    <Contact /> */}
+    <Contact />
   </div>
   )
 }
