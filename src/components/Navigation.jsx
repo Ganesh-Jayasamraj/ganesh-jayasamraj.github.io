@@ -12,8 +12,8 @@ export const Navigation = () => {
     <nav className='text-cyan-400 Neon_Effects'>
         <a href="#"><AiOutlineHome/></a>
         <a href="#learnings"><FiBook /></a>
-        <a href="#timeline"><LuCalendarClock /></a>
-        <a href="#personal_work"><MdWork /></a>
+        <a href="#timeline" className='hidden lg:block'><LuCalendarClock /></a>
+        {/* <a href="#personal_work"><MdWork /></a> */}
         <a href="#contact"><RiContactsLine /></a>
     </nav>
   )

@@ -16,7 +16,7 @@ function App() {
     {/* <Music_player /> */}
     <Learnings />
     <Timeline />
-    <Personal_work />
+    {/* <Personal_work /> */}
     <Contact />
   </div>
   )
