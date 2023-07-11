@@ -10,15 +10,15 @@ import { Timeline } from './components/Timeline'
 function App() {
 
   return (
-  <div className=' bg-blue-950'>
-    <Home />
-    <Navigation />
-    {/* <Music_player /> */}
-    <Learnings />
-    <Timeline />
-    {/* <Personal_work /> */}
-    <Contact />
-  </div>
+        <div className=' bg-blue-950'>
+          <Home />
+          <Navigation />
+          {/* <Music_player /> */}
+          <Learnings />
+          <Timeline />
+          {/* <Personal_work /> */}
+          <Contact />
+        </div>
   )
 }
 
