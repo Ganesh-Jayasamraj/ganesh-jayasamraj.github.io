@@ -1,6 +1,7 @@
 import './Home.css'
 import '../Fonts/Scriptina/SCRIPALT.ttf'
 import Photo from '../assets/pngwing.com.png'
+// import Photo01 from '../assets/pic.png'
 
 import React from 'react'
 
@@ -24,6 +25,7 @@ export const Home = () => {
         <h1 className=' text-[50px] lg:text-[90px] lg:mt-[-5rem] Scriptina_font text_skew text-cyan-100 Neon_Effects z-0'>Greetings Everyone</h1>
         {/* Need to change to photo */}
         <img src={Photo} className='inline-flex z-[1] w-[50%] mt-[-5rem] mb-[-10rem] lg:mt-[-18rem] lg:mb-[-24rem] grayscale'/>
+        {/* <img src={Photo01} className='inline-flex z-[1] w-[30%] mt-[-5rem] mb-[-10rem] lg:mt-[-18rem] lg:mb-[-24rem] grayscale-0'/> */}
         <p className=' text-[48px] lg:text-[95px] Scriptina_font text_skew mt-[2rem] lg:mt-[2rem] text-cyan-100 Neon_Effects'>I'm Ganesh</p>
       </div>
     {/* <section id='#' className='h-[100vh] flex'> */}
@@ -38,8 +40,6 @@ export const Home = () => {
         </a>
         <button id='CV' onClick={openCV} className=' px-4 py-3 mx-6 my-3 lg:px-8 lg:py-3 lg:mx-10 lg:my-9 rounded-md bg-blue-500 text-white'> My Resume </button>
       </div>
-
-      
     </section>
   )
 }
