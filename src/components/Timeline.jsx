@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Coding_data from './Coding.json'
 import Other_data from './Others.json'
 import './Timeline.css'

@@ -27,7 +27,7 @@ export const Home = () => {
       {/* <div className='w-[50%] text-center place-self-center translate-y-[-5rem] text-cyan-100 inline-block'> */}
       <div className='lg:w-[50%] lg:mt-[-5rem] mt-[5rem] text-center place-self-center text-cyan-100 inline-block'>
         {/* <h1 className=' text-[90px] my-[8rem] Scriptina_font text_skew ml-[-2rem] Neon_Effects'>Greetings Everyone</h1> */}
-        <br />
+     
         <p className=' text-sm lg:text-2xl text-cyan-300 inline-block lorem mx-10 mt-20 mb-10 lg:my-20 lg:mx-40'> Got no idea what to write here, So enjoy "lorem" <br /> <br /> "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe in quaerat, fuga iure iste, laborum libero nisi dicta illum quod deleniti ipsum aut repellat est eligendi ratione neque minus accusamus." </p>
         <br />
         <a href="#contact">
