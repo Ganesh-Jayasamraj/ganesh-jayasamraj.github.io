@@ -1,5 +1,6 @@
 import './Home.css'
 import '../Fonts/Scriptina/SCRIPALT.ttf'
+import Photo from '../assets/pngwing.com.png'
 
 import React from 'react'
 
@@ -20,8 +21,10 @@ export const Home = () => {
   return (
     <section id='#' className='h-[100vh] lg:flex bg-blue-950 w-[100%]'>
       <div className='w-[97%] lg:w-[50%] relative top-[5rem] lg:top-0 text-center place-self-center'>
-        <h1 className=' text-[50px] lg:text-[90px] lg:mt-[-5rem] Scriptina_font text_skew text-cyan-100 Neon_Effects'>Greetings Everyone</h1>
-        <p className=' text-[48px] lg:text-[95px] Scriptina_font text_skew mt-[2rem] lg:mt-[5rem] text-cyan-100 Neon_Effects'>I'm Ganesh</p>
+        <h1 className=' text-[50px] lg:text-[90px] lg:mt-[-5rem] Scriptina_font text_skew text-cyan-100 Neon_Effects z-0'>Greetings Everyone</h1>
+        {/* Need to change to photo */}
+        <img src={Photo} className='inline-flex z-[1] w-[50%] mt-[-5rem] mb-[-10rem] lg:mt-[-18rem] lg:mb-[-24rem] grayscale'/>
+        <p className=' text-[48px] lg:text-[95px] Scriptina_font text_skew mt-[2rem] lg:mt-[2rem] text-cyan-100 Neon_Effects'>I'm Ganesh</p>
       </div>
     {/* <section id='#' className='h-[100vh] flex'> */}
       {/* <div className='w-[50%] text-center place-self-center translate-y-[-5rem] text-cyan-100 inline-block'> */}
