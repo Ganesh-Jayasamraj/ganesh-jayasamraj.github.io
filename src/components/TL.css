@@ -1,31 +1,31 @@
-h1{
-    margin: 0.3em;
-    font-size: 0.3em;
+body{
+    background-color: rgba(23 37 84 / 1);
 }
 
 h2{
     margin-bottom: 0.5em;
 }
 
-.title{
+.title_CODE{
+    padding-top: 3rem;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 3em;
     letter-spacing: 2px;
 }
 
-.timeline {
+.timeline_CODE {
     margin: 5em auto;
     max-width: 30em;
 }
 
-.checkpoint{
-    max-width: 20em;
+.checkpoint_CODE{
+    max-width: 30em;
     padding-top: 1em;
     padding-bottom: 1em;
     position: relative;
 }
 
-.checkpoint div{
+.checkpoint_CODE div{
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
@@ -35,20 +35,20 @@ h2{
     font-size: larger;
 } */
 
-.checkpoint:nth-child(odd){
+.checkpoint_CODE:nth-child(odd){
     border-left: 3px solid #888;
     padding-left: 3em;
     transform: translateX(14.82em);
 }
 
-.checkpoint:nth-child(even){
+.checkpoint_CODE:nth-child(even){
     border-right: 3px solid #888;
     padding-right: 3em;
-    transform: translateX(-5em);
+    transform: translateX(-15em);
 }
 
-.checkpoint:nth-child(odd)::before,
-.checkpoint:nth-child(even)::before {
+.checkpoint_CODE:nth-child(odd)::before,
+.checkpoint_CODE:nth-child(even)::before {
     content: '';
     background: #888;
     width: 3em;
@@ -58,16 +58,16 @@ h2{
     transform: translateY(-50%);
 }
 
-.checkpoint:nth-child(odd)::before{
+.checkpoint_CODE:nth-child(odd)::before{
     left: 0;
 }
 
-.checkpoint:nth-child(even)::before{
+.checkpoint_CODE:nth-child(even)::before{
     right: 0;
 }
 
-.checkpoint:nth-child(odd) div::before,
-.checkpoint:nth-child(even) div::before {
+.checkpoint_CODE:nth-child(odd) div::before,
+.checkpoint_CODE:nth-child(even) div::before {
     content: '';
     background: rgb(207, 250, 254);
     box-shadow: 0 0 10px rgb(103 232 249 / 1),
@@ -83,22 +83,14 @@ h2{
     border-radius: 50%;
 }
 
-.checkpoint:nth-child(odd) div::before {
+.checkpoint_CODE:nth-child(odd) div::before {
     left: -0.5em;
 }
 
-.checkpoint:nth-child(even) div::before {
+.checkpoint_CODE:nth-child(even) div::before {
     right: -0.5em;
 }
 
-.midline {
-    margin-left: 75%;
-    background: rgba(207, 250, 254, 0.822);
-    width: 3px;
-    height: 700px;
-    box-shadow: 0 0 10px rgb(103 232 249 / 1),
-                0 0 20px rgb(103 232 249 / 1),
-                0 0 40px rgb(103 232 249 / 1),
-                0 0 80px rgb(103 232 249 / 1),
-                0 0 120px rgb(103 232 249 / 1);
-}
+/* .warning{
+    margin-top: -2rem;
+} */

@@ -24,10 +24,10 @@ export const Timeline = () => {
   return (
     <section id='timeline' className=' hidden lg:h-[100vh] lg:flex lg:text-white'>
       <div className='w-[45%] ml-5 self-center'>
-        <h1 className='title p-6 Neon_Effects'><Link to='/coding_TL'> &gt;&gt; Coding &lt;&lt; </Link></h1>
+        <h1 className='title mt-8 p-6 Neon_Effects'><Link to='/coding_TL'> &gt;&gt; Coding &lt;&lt; </Link></h1>
         <div className="timeline mt-[0.5rem]">
           {
-            Coding_data.filter((item, i) => i < 4).map((Detail) => {
+            Coding_data.filter((item, i) => i < 3).map((Detail) => {
               return (
                 <div className='checkpoint'>
                   <div>
@@ -47,10 +47,10 @@ export const Timeline = () => {
       </div>
 
       <div className='w-[45%] ml-10 mr-5 self-center'>
-        <h1 className='title p-6 Neon_Effects'><Link to='/Others_TL'> &gt;&gt; Others &lt;&lt; </Link></h1>
+        <h1 className='title mt-8 p-6 Neon_Effects'><Link to='/Others_TL'> &gt;&gt; Others &lt;&lt; </Link></h1>
         <div className="timeline mt-[0.5rem]">
           {
-            Other_data.filter((item, i) => i < 4).map((Detail) => {
+            Other_data.filter((item, i) => i < 3).map((Detail) => {
               return (
                 <div className='checkpoint'>
                   <div>
