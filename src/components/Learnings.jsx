@@ -4,6 +4,7 @@ import { FaPython } from 'react-icons/Fa'
 import { DiJavascript1, DiReact } from 'react-icons/Di'
 import { SiJulia, SiRust } from 'react-icons/si'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 export const Learnings = () => {
   return (
@@ -44,12 +45,13 @@ export const Learnings = () => {
             Rust
           </div>
 
+          <Link to="/learnings">
             <div className='card text-gray-400'>
               <AiOutlineDoubleRight size={90}/>
               <br />
               More
             </div>
-
+          </Link>
         </div>
 
       {/* For Mobile */}

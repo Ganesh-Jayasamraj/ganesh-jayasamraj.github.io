@@ -2,6 +2,7 @@ import React from 'react'
 import Coding_data from './Coding.json'
 import Other_data from './Others.json'
 import './Timeline.css'
+import { Link } from 'react-router-dom'
 
 export const Timeline = () => {
 
@@ -23,7 +24,7 @@ export const Timeline = () => {
   return (
     <section id='timeline' className=' hidden lg:h-[100vh] lg:flex lg:text-white'>
       <div className='w-[45%] ml-5 self-center'>
-        <h1 className='title p-6 Neon_Effects'>Coding</h1>
+        <h1 className='title p-6 Neon_Effects'><Link to='/coding_TL'> &gt;&gt; Coding &lt;&lt; </Link></h1>
         <div className="timeline mt-[0.5rem]">
           {
             Coding_data.filter((item, i) => i < 4).map((Detail) => {
@@ -46,7 +47,7 @@ export const Timeline = () => {
       </div>
 
       <div className='w-[45%] ml-10 mr-5 self-center'>
-        <h1 className='title p-6 Neon_Effects'>Others</h1>
+        <h1 className='title p-6 Neon_Effects'><Link to='/Others_TL'> &gt;&gt; Others &lt;&lt; </Link></h1>
         <div className="timeline mt-[0.5rem]">
           {
             Other_data.filter((item, i) => i < 4).map((Detail) => {
