@@ -7,6 +7,7 @@ import { Learning_More_Section } from './components/Learning/Learning_More_Secti
 import { TL_Coding } from './components/Timeline/TL_Coding.jsx'
 import { TL_Others } from './components/Timeline/TL_Others.jsx'
 import { Music } from './components/Music/Music.jsx'
+import { Gallery } from './components/Gallery/Gallery.jsx'
 
 
 export const Warning = () => {
@@ -42,6 +43,7 @@ export const Main = () => {
         <Route path='/coding_TL' element={<TL_Coding />}/>
         <Route path='/others_TL' element={<TL_Others />}/>
         <Route path='/music' element={<Music />}/>
+        <Route path='/gallery' element={<Gallery />}/>
       </Routes>
     </BrowserRouter>
   )

@@ -1,0 +1,36 @@
+.Gallery_container{
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    padding: 15px;
+
+    border-radius: 10px;
+
+    position: static;
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(7, 480px) ;
+    row-gap: 30px;
+    column-gap: 30px;
+    align-items: center;
+
+    grid-auto-rows: 20%;
+    grid-auto-flow: column;
+
+    overflow-y: scroll;
+}
+
+.Gallery_container h1{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item-1{
+    grid-row: span 2;
+    grid-column: span 2;
+}
