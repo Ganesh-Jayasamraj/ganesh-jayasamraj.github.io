@@ -12,6 +12,7 @@ import { Music } from './components/Music/Music.jsx'
 export const Warning = () => {
   return (
     <div className='warning text-white text-sm lg:text-xl'>
+      Warning <br />
       This website is still under development <br />
       There are difference in mobile and pc version
     </div>
