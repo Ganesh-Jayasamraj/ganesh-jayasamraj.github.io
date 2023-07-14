@@ -42,3 +42,9 @@ body{
         font-size: 60px;
     }
 }
+
+.log{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

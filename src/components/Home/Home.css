@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Scriptina";
+    src: local("Scriptina"),
+        url("../../Fonts/Scriptina/SCRIPTIN.ttf") format("truetype");
+}
+
+.Scriptina_font {
+    font-family: "Scriptina";
+    
+}
+
+.text_skew {
+    transform: skew(-10deg,-20deg) ;
+}
+
+.lorem{
+    text-align: justify;
+    text-justify: inter-word;
+}

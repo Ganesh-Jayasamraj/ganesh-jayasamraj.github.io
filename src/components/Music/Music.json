@@ -1,0 +1,15 @@
+[
+    {
+        "title" : "AOT - Call Your Name",
+        "URl": "http://localhost:8000/AOT%20-%20Call%20Your%20Name.mp3"
+    },
+    {
+        "title" : "Hazbin Hotel - One Hell of a Team",
+        "URl": "http://localhost:8000/Hazbin%20Hotel%20-%20One%20Hell%20of%20a%20Team.mp3"
+    },
+    {
+        "title" : "Vogel im Kafig",
+        "URl": "http://localhost:8000/Vogel%20im%20Kafig.mp3"
+    }
+
+]
